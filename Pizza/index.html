@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/jquery-3.4.1.js"></script>
+    <script src="./js/scripts.js"></script>
+    <title>Pizza Parlor</title>
+</head>
+  <body>
+    <div class = "container">
+      <div class= "jumbotron">
+        <h1>Welcome To Pizza Planet</h1><br>
+        <form id="form">
+
+          <label for="pizzaSize"><h2>What Size Pizza Would You Like</h2></label><br>
+          <select name="size" id="size">
+          <option value= "Large">Large-15$</option>
+          <option value="Medium">Medium-13$</option>
+          <option value="Small">Small-10$</option>
+          </select><br><br>
+
+          <label for="pizzaToppings"><h4>Choose one topping you would like on your Pizza</h4></label>
+          <select name="Toppings" id ="Toppings">
+          <option value ="no toppings"> Cheese Only</option>
+          <option value ="Mushrooms"> Mushrooms - 1$ extra</option> 
+          <option value ="Red Peppers"> Red Peppers-2$ extra</option>
+          </select><br><br>
+
+          <label for="pizzaCrust"><h4>Choose what type of crust you would like</h4></label>
+          <select name="crust" id ="crust">
+          <option value ="no"> Normal </option>
+          <option value ="cheesy"> Cheesy Crust- 1$ extra</option> 
+          <option value ="garlic"> Garlic Crust 1$ extra</option>
+          </select><br><br>
+          <button type="submit">Place your Order Here</button>
+          </form>
+          <div id = "confirm"></div>
+          <div id ="pizzaPrice"></div>
+        </div>
+      </div>
+    </body>
+</html>
