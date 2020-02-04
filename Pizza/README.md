@@ -1,5 +1,5 @@
 
-# _pizzaParlor_
+# Pizza Parlor
 
 #### _Project Using OOPS (Object Oriented Programming Systems), Javascript, 1/2/2020_
 
