@@ -13,7 +13,7 @@ Allows User to Construct a Pizza and caculates and displays the Cost of the Pizz
 
 * _Go to my github pages, download/clone from github and run index.html_
 
-github-pages link: https://github.com/StevenFleming/Pizza-Parlor-/tree/gh-pages/Pizza
+github-pages link: https://github.com/StevenFleming/Pizza-Parlor-/tree/gh-pages
 
 _finished_
 
