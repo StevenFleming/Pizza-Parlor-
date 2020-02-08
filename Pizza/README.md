@@ -24,7 +24,6 @@ Specs
 
 | spec behavior | input | output |
 | :-------------     | :------------- | :------------- |
-| this | that | the other |
 | Pizza size determines price| Large Pizza| Base Price + 5$|
 | Pizza topping determines price| Mushrooms| Base Price + 2$|
 | Pizza Crust determines price| Cheesy Crust| Base Price +1$|
