@@ -21,17 +21,14 @@ _finished_
 ## Specs
 
 Specs 
-Determines Size of Pizza
 
-Allows choice of Pizza Topping
-
-Allows choice of Pizza Crust
-
-Runs Cost algorithm 
-
-Returns display of Cost
-
-Returns the type of Pizza that you Ordered
+| spec behavior | input | output |
+| :-------------     | :------------- | :------------- |
+| this | that | the other |
+| Pizza size determines price| Large Pizza| Base Price + 5$|
+| Pizza topping determines price| Mushrooms| Base Price + 2$|
+| Pizza Crust determines price| Cheesy Crust| Base Price +1$|
+| Pizza type and final cost is returned to user| Order:Large Pizza, Mushrooms, Cheesy Crust| Your Pizza was a Large with Mushrooms and Cheesy Crust. Thank you for choosing Pizza Planet: Your final price will be 18$|
 
 ## Known Bugs
 
